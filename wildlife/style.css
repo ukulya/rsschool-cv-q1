@@ -1,6 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: #F7F7F7;
+    margin: 0;
+    line-height: 1.4;
 }
 a,span{
     display: inline-block;
@@ -19,6 +21,9 @@ img:hover{
 img {
     max-width: 100%;
     height: auto;
+}
+h1,h2,h3,h4{
+    font-weight: 400;
 }
 h1{
     font-size: 48px;
@@ -45,16 +50,38 @@ h4{
     font-size: 22px;
     margin-bottom: 18px;
 }
-.navbar,footer,.default-btn{
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 65px;
+}
+.navbar-brand span{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-left: 15px;
+}
+.navbar-brand{
+    display: inline-flex;
+    align-items: center;
+}
+header,footer,.default-btn{
     font-size: 23px;
 }
-.navbar.scrolled,.navbar.active{
+header.scrolled{
     background-color: #02160B;
 }
 .navbar .btn{
     padding: 6px 23px;
 }
-
+.list-unstyled{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+.list-unstyled li{
+    padding: 15px 15px;
+}
 .btn-plain span{
     font-size: 32px;
 }
@@ -62,6 +89,7 @@ h4{
     color: #F7F7F7;
     font-size: 23px;
     border-radius: 5px;
+
 }
 .default-btn{
     background-color: #cd6326;
@@ -70,6 +98,7 @@ h4{
 }
 .default-outline-btn{
     border: 2px solid  #CD6326;
+    background-color: unset;
 }
 .btn-plain{
     border-color: transparent;
@@ -79,8 +108,8 @@ h4{
     background-repeat: no-repeat;
 }
 .hero-section{
-    background-image: url("assets/hero-img.jpg");
-    padding: 210px 0 240px;
+    background-image: url("img/hero-img.jpg");
+    padding-bottom: 240px;
     background-color: #02160b;
 }
 .hero-section p{
@@ -131,7 +160,7 @@ h4{
     padding-right: 32px;
 }
 footer{
-    background-image: url("assets/footer-bg (1).jpg");
+    background-image: url("img/footer-bg (1).jpg");
     padding: 150px 0 130px;
     background-color: #181617;
 }
@@ -145,6 +174,14 @@ section{
 .navbar-toggler:focus{
     outline: none;
     box-shadow: none;
+}
+.container,header{
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.list-inline{
+    list-style: none;
 }
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -176,12 +213,12 @@ section{
     .slide-carousel{
         max-width: 1020px;
         margin: 105px auto 0;
+        display: flex;
+        justify-content: space-between;
     }
 }
 @media (min-width: 1200px) {
-    .container{
-        max-width: 1224px;
-    }
+
     .custom-li {
         margin-left: 90px;
     }
