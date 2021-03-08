@@ -1,51 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>WildLife</title>
+    <title>Wildlife</title>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="material-icons">menu</span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="hidden" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-plain" type="submit"><span class="material-icons">search</span></button>
-                </form>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="hidden" placeholder="Search" aria-label="Search">
-                    <button class="btn default-outline-btn" type="submit">Sign in</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-</header>
 <section class="section-bg hero-section">
+    <header>
+        <a href="" class="navbar-brand">
+            <svg width="69" height="60" viewBox="0 0 69 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.3948 2.44604C4.16477 7.15504 3.65727 16.4691 5.36475 21.3461C5.73505 22.4039 6.12845 23.6725 6.23905 24.1655C6.50697 25.3616 9.98755 33.4607 11.3835 36.1374C12.7536 38.7639 12.7282 38.7901 10.1004 37.4541C6.3206 35.5326 3.34752 31.5826 2.05042 26.7593C1.13115 23.3408 0.00397348 23.2777 0.0772985 26.6488C0.205224 32.5289 5.17522 38.814 12.5882 42.4708C15.5288 43.9211 14.6779 42.7686 21.2467 54.2024C24.0457 59.0747 24.1808 59.2308 25.5972 59.2308C27.3561 59.2308 27.6071 58.8444 28.5953 54.6155C29.5972 50.3279 30.7228 46.6075 31.9289 43.5965L32.7948 41.4347L31.8533 40.1431C31.3355 39.4326 30.798 38.8502 30.6593 38.8488C30.1948 38.844 28.0869 43.6096 26.7646 47.6535L25.4569 51.6532L23.9027 49.3844C22.4623 47.2811 17.952 38.948 16.8384 36.3319C12.847 26.9553 14.4788 15.6138 20.3028 12.2518C22.3567 11.066 21.9794 9.6086 19.8173 10.3764C15.3945 11.9471 11.3867 18.6498 10.9586 25.1924C10.8617 26.6725 9.7457 24.0611 8.6236 19.7287C7.47227 15.2835 7.3727 6.67708 8.4353 3.47029C9.38888 0.593038 7.67895 -0.265299 6.3948 2.44604ZM59.6933 1.30982C59.574 1.59996 59.6634 2.85175 59.8918 4.09177C61.1044 10.6744 60.7708 16.6257 58.8924 21.9231C57.5846 25.6113 57.0736 26.3963 57.0652 24.7304C57.0377 19.3638 53.3148 12.8507 49.0733 10.7489C45.9222 9.18752 45.6274 10.2683 48.518 12.7851C56.5554 19.7834 54.8527 33.9088 44.1036 49.4043L42.5157 51.6933L41.9636 49.7889C40.4831 44.6822 39.9738 43.3696 38.0497 39.7006L35.9766 35.7474L37.6433 33.7295C38.56 32.6197 40.4344 31.032 41.8087 30.2013C43.183 29.3706 44.2428 28.5095 44.1637 28.2878C43.6667 26.893 39.9378 28.4095 36.4521 31.4239L34.0308 33.5178L31.8846 31.5955C29.582 29.5331 25.8581 27.5444 24.6935 27.7554C23.4517 27.9804 23.6045 28.7779 25.0178 29.4484C31.5726 32.5583 36.2416 40.8258 39.5563 55.1923C40.3933 58.8197 40.6819 59.2308 42.3925 59.2308C43.7998 59.2308 43.9577 59.0614 46.1602 55.1923C47.5179 52.8072 51.0517 46.8561 52.3433 44.7796C52.8356 43.988 54.1098 43.1056 56.201 42.1082C62.3316 39.1839 67.1378 33.2911 68.1072 27.5107C68.7914 23.4293 67.2122 22.8184 66.0997 26.7343C64.7094 31.6287 61.3194 36.0255 57.5225 37.8595C55.6437 38.767 55.6206 38.591 57.1947 35.3476C64.3238 20.6586 65.7354 10.406 61.7265 2.43362C61.0403 1.06904 60.0232 0.506894 59.6933 1.30982Z" fill="white"/>
+            </svg>
+            <span>Wildlife</span>
+        </a>
+        <ul class="navbar-nav list-unstyled">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+            </li>
+            <li><a href="" class="btn btn-plain"><span class="material-icons">search</span></a></li>
+            <li><button class="btn default-outline-btn" type="submit">Sign in</button></li>
+        </ul>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -66,45 +49,24 @@
         </div>
         <div class="slide-carousel owl-carousel">
             <div class="slide-card">
-                <img src="assets/slide-1.jpg" alt="">
+                <img src="img/slide-1.jpg" alt="">
                 <div class="slide-info">
                 <h4>Deer</h4>
                 <p>Naturalist investigation</p>
                 </div>
             </div>
             <div class="slide-card">
-                <img src="assets/slide-2.jpg" alt="">
+                <img src="img/slide-2.jpg" alt="">
                 <div class="slide-info">
                 <h4>Squirrel</h4>
                 <p>Kamikaze squirrels</p>
                 </div>
             </div>
             <div class="slide-card">
-                <img src="assets/slide-3.jpg" alt="">
+                <img src="img/slide-3.jpg" alt="">
                 <div class="slide-info">
                 <h4>Bird</h4>
                 <p>Birds Fight club</p>
-                </div>
-            </div>
-            <div class="slide-card">
-                <img src="assets/slide-1.jpg" alt="">
-                <div class="slide-info">
-                <h4>Deer</h4>
-                <p>Naturalist investigation</p>
-                </div>
-            </div>
-            <div class="slide-card">
-                <img src="assets/slide-2.jpg" alt="">
-                <div class="slide-info">
-                <h4>Squirrel</h4>
-                <p>Kamikaze squirrels</p>
-                </div>
-            </div>
-            <div class="slide-card">
-                <img src="assets/slide-3.jpg" alt="">
-                <div class="slide-info">
-                    <h4>Bird</h4>
-                    <p>Birds Fight club</p>
                 </div>
             </div>
         </div>
@@ -113,7 +75,7 @@
                 <h3>Get notified about new amazing articles</h3>
                 <form>
                     <div class="input-group">
-                    <input class="form-control" type="email" placeholder="Email" aria-label="Mail">
+                    <input class="form-control" type="text" placeholder="Email" aria-label="Mail">
                     <button class="btn default-btn" type="submit">Send</button>
                     </div>
                 </form>
@@ -126,7 +88,7 @@
         <div class="row">
             <div class="col">
                <ul class="list-inline">
-                   <li class="logo-li"><a href=""><img src="assets/logo.png" alt=""></a></li>
+                   <li class="logo-li"><a href=""><img src="img/logo.png" alt=""></a></li>
                    <li class=""><a href="">Articles</a></li>
                    <li class="custom-li"><a href="">About us</a></li>
                    <li class="custom-li-last custom-li"><a href="">Learn more</a></li>
@@ -158,16 +120,5 @@
         </div>
     </div>
 </footer>
-<!-- Optional JavaScript; choose one of the two! -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="script.js"></script>
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
--->
 </body>
 </html>
