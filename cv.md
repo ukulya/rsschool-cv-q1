@@ -1,6 +1,6 @@
 # URKUIASH KORGONBEKOVA  #
 
-Bishkek,Kyrghyzstan
+Bishkek,Kyrghyzstan  
 **+996709426433**
 
 Ukulya150992@gmail.com
@@ -67,62 +67,62 @@ Languages:
     </div>
 </div>
 
-$(document).ready(function() {
-$('.navbar-toggler').on('click', function () {
-$('.navbar').toggleClass('active');
-$('body').toggleClass('active');
-$(this).toggleClass('active');
-});
+    $(document).ready(function() {
+        $('.navbar-toggler').on('click', function () {
+            $('.navbar').toggleClass('active');
+            $('body').toggleClass('active');
+            $(this).toggleClass('active');
+        });
 
-$('.gallery-carousel').owlCarousel({
-loop:true,
-autoplay:false,
-dots:false,
-items: 1,
-center:true,
-autoWidth:true,
-nav:true,
-navText:['<span class="material-icons">arrow_back</span>', '<span class="material-icons">arrow_forward</span>'],
-navContainer:'.gallery-nav',
-responsive:{
-700:{
-margin: 130
-},
-320:{
-margin: 15
-}
-}
-})
-});
+        $('.gallery-carousel').owlCarousel({
+        loop:true,
+        autoplay:false,
+        dots:false,
+        items: 1,
+        center:true,
+        autoWidth:true,
+        nav:true,
+        navText:['<span class="material-icons">arrow_back</span>', '<span class="material-icons">arrow_forward</span>'],
+        navContainer:'.gallery-nav',
+        responsive:{
+            700:{
+                margin: 130
+            },
+            320:{
+                margin: 15
+            }
+        }
+        })
+    });
 
-$(document).scroll(function() {
-if ( $(document).scrollTop() >= 50 ) {
-$('.navbar').addClass('scrolled')
-} else {
-$('.navbar').removeClass('scrolled')
-}
-});
+    $(document).scroll(function() {
+    if ( $(document).scrollTop() >= 50 ) {
+    $('.navbar').addClass('scrolled')
+    } else {
+    $('.navbar').removeClass('scrolled')
+    }
+    });
 
 ## LInks to projects ##
-**Opencart projects** - I have used basic PHP,JS,SQL and advanced HTML5,CSS3,Bootstrap 3 skills
-http://dream.optimizer.kg/
-https://larrus.ru/
-http://mediform.optimizer.kg/
-http://cashmererk.com/
-http://tritongear.kg/
-http://beautybliss.kg/
-http://new.europarket.kg/
-https://stb.kg/
-https://pandora-flowers.kg/
+**Opencart projects** - I have used basic PHP,JS,SQL and advanced HTML5,CSS3,Bootstrap 3 skills  
+[http://dream.optimizer.kg/](http://dream.optimizer.kg/)  
+[https://larrus.ru/](https://larrus.ru/)  
+[http://mediform.optimizer.kg/](http://mediform.optimizer.kg/)    
+[http://cashmererk.com/](http://cashmererk.com/)  
+[http://tritongear.kg/](http://tritongear.kg/)  
+[http://beautybliss.kg/](http://beautybliss.kg/)  
+[http://new.europarket.kg/](http://new.europarket.kg/)    
+[https://stb.kg/](https://stb.kg/)  
+[https://pandora-flowers.kg/](https://pandora-flowers.kg/)    
 
-**Wordpress projects** - I have used basic PHP,JS and advanced HTML5,CSS3,Bootstrap 4+ skills
-http://40x40.optimizer.kg/
-http://autosales.optimizer.kg/
-http://avenu.optimizer.kg/
-http://dali.kg/
-http://lion.optimizer.kg/
-http://smartlogistics.optimizer.kg/
-http://steklonit.kg/
-https://ecohimpribor.ru/
-https://toc-teh.ru/
-http://vevi.optimizer.kg/
+**Wordpress projects** - I have used basic PHP,JS and advanced HTML5,CSS3,Bootstrap 4+ skills   
+[http://40x40.optimizer.kg/](http://40x40.optimizer.kg/)  
+[http://autosales.optimizer.kg/](http://autosales.optimizer.kg/)  
+[http://avenu.optimizer.kg/](http://avenu.optimizer.kg/)  
+[http://dali.kg/](http://dali.kg/)  
+[http://lion.optimizer.kg/](http://lion.optimizer.kg/)  
+[http://smartlogistics.optimizer.kg/](http://smartlogistics.optimizer.kg/)  
+[http://steklonit.kg/](http://steklonit.kg/)  
+[https://ecohimpribor.ru/](https://ecohimpribor.ru/)  
+[https://toc-teh.ru/](https://toc-teh.ru/)  
+[http://vevi.optimizer.kg/](http://vevi.optimizer.kg/)  
